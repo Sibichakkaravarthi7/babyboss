@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      @font-face {
+        font-family: 'Messy Handwritten';
+        src: url('assets/MessyHandwritten-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      .about-section p.custom-hugh-font {
+        font-family: 'Messy Handwritten', cursive, sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.5px;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Baby Boss Fun Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">BABY BOSS FUN ZONE</div>
+            <div class="hero-buttons">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="toys.html">Toys</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section class="content">
+      <div class="about-section">
+        
+        <h1>About Baby Boss Fun Zone</h1>
+        <p class="custom-hugh-font"><strong>Baby Boss Fun Zone</strong> Welcome to Baby Boss Play Zone, a vibrant and fun-filled kids’ play center designed to spark joy, imagination, and energy in every child! Our facility features a dynamic mix of arcade games, an exciting soft play area, and safe, engaging activities that promote physical play and social interaction. Whether it’s a weekend outing or a birthday celebration, Baby Boss Play Zone is the perfect destination where fun meets safety. We’re committed to providing a clean, colorful, and stimulating environment where kids can laugh, explore, and just be kids.</p>
+        <ul>
+            <li>Explore our exciting arcade games and soft play attractions</li>
+            <li>Make new friends in our fun and safe play environment</li>
+            <li>Enjoy birthday party zones, interactive games, and themed play sessions</li>              
+        </ul>
+        <div class="about-media" style="display: flex; justify-content: center; align-items: center;">
+  <img src="assets/babyboss.png" alt="Baby Boss" class="about-img-animated">
+
+        </div>
+      </div>
+    </section>
+      <section class="gallery-section">
+    <h2>Gallery</h2>
+    <ul>
+  <li><img src="assets/Gallery/IMG-20250502-WA0007.jpg" alt="Gallery Image 1"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0012 copy.jpg" alt="Gallery Image 2"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0013.jpg" alt="Gallery Image 3"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0014.jpg" alt="Gallery Image 4"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0016.jpg" alt="Gallery Image 5"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0025.jpg" alt="Gallery Image 6"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0015.jpg" alt="Gallery Image 7"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0028.jpg" alt="Gallery Image 8"></li>
+  <li><img src="assets/Gallery/IMG-20250502-WA0038.jpg" alt="Gallery Image 9"></li>
+</ul>
+  </section>
+</main>
+<!-- Modal for gallery images -->
+<div id="gallery-modal" style="display:none;position:fixed;z-index:9999;top:0;left:0;width:100vw;height:100vh;align-items:center;justify-content:center;background:rgba(0,0,0,0.7);">
+  <div class="modal-backdrop" style="position:absolute;top:0;left:0;width:100vw;height:100vh;"></div>
+  <div class="modal-content" style="position:relative;z-index:2;max-width:90vw;max-height:90vh;display:flex;flex-direction:column;align-items:center;">
+    <img src="" alt="Expanded Gallery Image" style="max-width:100%;max-height:80vh;border-radius:16px;box-shadow:0 8px 32px rgba(58,182,227,0.2);background:#fff;">
+    <button class="modal-close" style="margin-top:1rem;font-size:2rem;padding:0.5rem 1.5rem;border:none;background:#e24c4b;color:#fff;border-radius:8px;cursor:pointer;">&times;</button>
+  </div>
+</div>
+    <footer>
+        <div class="footer-content">
+            <div class="logo-circle">
+  <img src="assets/babyboss-logo.png" alt="Baby Boss Logo">
+</div>
+            <p>BABY BOSS FUN ZONE</p>
+        </div>
+    </footer>
+<script src="gallery-modal.js"></script>
+</body>
+</html>
+
